@@ -7,9 +7,10 @@ total_breaks = 3
 break_count = 0
 # Show the time when the program started running.
 print("This program started on "+time.ctime())
-# Add while loop to make program run three times, once the stetement is falce, loop will stop.
+# Main logic
 while(break_count < total_breaks):
     time.sleep(10)
     webbrowser.open("https://www.youtube.com/watch?v=-OqrcUvrbRY")
     break_count = break_count + 1
+
 
